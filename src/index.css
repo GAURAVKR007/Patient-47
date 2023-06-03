@@ -13,6 +13,7 @@ body {
   /* font-family: 'Roboto', sans-serif; */
   overflow-x: hidden;
   scroll-behavior: smooth scroll;
+  background-color: black;
 }
 
 /* Navbar Section */
@@ -46,7 +47,101 @@ body {
 
 /* Overview */
 
-.box1 {
-  border: 2px solid black;
-  width: 70%;
+.boxes-overview{
+margin-top: 40px;
+padding-left: 200px;
+padding-right: 180px;
+}
+
+.boxes-overview h1 {
+  color: #fff;
+}
+
+
+/* Card */
+
+.box {
+  height: 700px;
+  padding-top: 50px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+.image-sec {
+  /* width: 51%; */
+  position: absolute;
+  height: 400px;
+  left: 210px;
+}
+
+.image-sec img {
+  max-width: 100%;
+  max-height: 100%;
+  /* object-fit: contain; */
+}
+
+.text {
+  background-color: #272727;
+  color: whitesmoke;
+  position: absolute;
+  right: 250px;
+  width: 40.8%;
+  margin-top: 200px;
+  min-height: 300px;
+  text-align: left;
+  line-height: 1.5;
+  padding: 10px 20px 10px;
+}
+
+/* Card 2 */
+
+.box2 {
+  height: 700px;
+  padding-top: 50px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+.image-sec2 {
+  /* width: 51%; */
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  right: 250px;
+}
+
+.image-sec2 img {
+  height: 400px;
+  width: "100%";
+  object-fit: cover;
+}
+
+.text2 {
+  background-color: #272727;
+  color: whitesmoke;
+  position: absolute;
+  left: 210px;
+  width: 40.8%;
+  margin-top: 200px;
+  min-height: 300px;
+  text-align: left;
+  line-height: 1.5;
+  padding: 10px 20px 10px;
+}
+
+
+/* Footer  */
+
+.footer {
+  height: 5vh;
+  font-size: 1.8rem;
+  width: 100vw;
+  text-align: left;
+  margin-left: 100px;
+  color: white;
+  background: linear-gradient(333deg, rgb(34, 32, 32) 27%, rgba(29,27,20,1) 88%);
+}
+
+.footer:hover{
+  color: #C9030D;
 }
