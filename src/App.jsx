@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Overwiew from './components/Overview';
 import Footer from './components/Footer';
+import Trailer from './components/Trailer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Navbar />
      <Hero />
      <Overwiew />
+     <Trailer />
      <Footer />
     </div>
   );

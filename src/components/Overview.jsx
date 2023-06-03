@@ -6,7 +6,7 @@ export default function Overwiew() {
     return(
         <div>
             <div className="boxes-overview">
-            <h1 style={{textAlign : "center"}}> Game Overview</h1>
+            <h1 style={{textAlign : "center"}}> <u> Game Overview </u></h1>
                <Card 
                 img="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/one-piece-zoro-s-10-best-moves-ranked-according-to-strength.jpg"
                 heading="My Dummy Text"
@@ -15,14 +15,14 @@ export default function Overwiew() {
                 />
 
                <Card2
-               img="https://pbs.twimg.com/media/EiNuz3LU0AAOBh0.jpg"
+               img="https://i.ytimg.com/vi/uAbF5ROUeVo/maxresdefault.jpg"
                heading="My Dummy Text"
                para1="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro blanditiis cum alias voluptate fugiat ea, repellat omnis sequi accusamus officia nemo praesentium quibusdam quo illum sint id explicabo repellendus, quia eaque ex? Maxime vitae officia aliquam, nisi perspiciatis id quasi corrupti, perferendis ducimus vero ipsa!lorem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tenetur!"
                para2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quasi unde nesciunt adipisci numquam iure explicabo, suscipit distinctio maxime consectetur corrupti voluptates, aliquid, sit consequatur!"
                />
 
                <Card 
-                img="https://india.postsen.com/content/uploads/2023/01/05/917b67b091.jpg"
+                img="https://sm.mashable.com/t/mashable_in/photo/default/asus-rog-strix-scar-g15-review_8wpm.2496.jpg"
                 heading="My Dummy Text"
                 para1="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro blanditiis cum alias voluptate fugiat ea, repellat omnis sequi accusamus officia nemo praesentium quibusdam quo illum sint id explicabo repellendus, quia eaque ex? Maxime vitae officia aliquam, nisi perspiciatis id quasi corrupti, perferendis ducimus vero ipsa!lorem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tenetur!"
                 para2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quasi unde nesciunt adipisci numquam iure explicabo, suscipit distinctio maxime consectetur corrupti voluptates, aliquid, sit consequatur!"
