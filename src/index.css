@@ -1,13 +1,52 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto&display=swap');
+
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Creepster', cursive;
+  /* font-family: 'Roboto', sans-serif; */
+  overflow-x: hidden;
+  scroll-behavior: smooth scroll;
+}
+
+/* Navbar Section */
+.nav-bar {
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-name {
+  color: white;
+  margin-left: 50px;
+}
+
+.nav-name:hover {
+  color: #C9030D;
+}
+
+.nav-buy {
+  color: black;
+  background-color: #C9030D;
+  padding: 20px;
+  margin-right: -10px;
+}
+
+.nav-buy:hover {
+  color: white;
+}
+
+/* Overview */
+
+.box1 {
+  border: 2px solid black;
+  width: 70%;
 }
