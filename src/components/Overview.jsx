@@ -6,7 +6,7 @@ export default function Overwiew() {
     return(
         <div>
             <div className="boxes-overview">
-            <h1 style={{textAlign : "center"}}> <u> Game Overview </u></h1>
+            <h1 style={{textAlign : "center"}}> <span> Game Overview </span></h1>
                <Card 
                 img="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/one-piece-zoro-s-10-best-moves-ranked-according-to-strength.jpg"
                 heading="My Dummy Text"

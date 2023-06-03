@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 *{
   box-sizing: border-box;
@@ -9,8 +10,9 @@
 }
 
 body {
-  font-family: 'Creepster', cursive;
+  /* font-family: 'Creepster', cursive; */
   /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth scroll;
   background-color: black;
@@ -20,7 +22,7 @@ body {
 .nav-bar {
   background-color: black;
   color: whitesmoke;
-  padding: 10px;
+  padding: 2px;
   display: flex;
   position: fixed;
   top: 0;
@@ -32,6 +34,7 @@ body {
 
 .nav-name {
   color: white;
+  font-family: 'Nosifer', cursive;
   margin-left: 50px;
 }
 
@@ -40,15 +43,16 @@ body {
 }
 
 .nav-bar h2 {
-  padding-top: 5px;
+  padding-top: 10px;
+
 }
 
 .nav-buy {
   color: black;
   background-color: #C9030D;
-  padding: 20px 20px 14px 20px;
+  padding: 25px 20px 12px 20px;
   text-align: start;
-  margin-right: -10px;
+  margin-right: -5px;
 }
 
 .nav-buy:hover {
@@ -66,6 +70,31 @@ padding-right: 180px;
 .boxes-overview h1 {
   color: #fff;
 }
+
+.boxes-overview h1 span {
+  position: relative;
+  transition: 0.8s;
+}
+
+.boxes-overview h1 span::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: red;
+  z-index: -1;
+  transition: 0.8s;
+  top: 5px;
+  border-radius: 0 0 50% 50%;
+}
+
+.boxes-overview h1 span:hover::before{
+  height: 125%;
+}
+
+
+
 
 
 /* Card */
@@ -201,6 +230,13 @@ padding-right: 180px;
 
 .about h1{
   margin-bottom: 25px;
+  display: inline-block;
+  border-bottom: none;
+  /* transition: all 0.2s; */
+}
+
+.about h1:hover{
+  border-bottom: 2px solid red;
 }
 
 .about p {
@@ -212,7 +248,7 @@ padding-right: 180px;
 .about-game1 {
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 95%;
   line-height: 1.5;
   margin-bottom: 20px;
   font-size: 1.7rem;
@@ -246,7 +282,7 @@ padding-right: 180px;
 /* Footer  */
 
 .footer {
-  height: 5vh;
+  height: 7vh;
   font-size: 1.8rem;
   width: 100vw;
   text-align: left;
@@ -255,6 +291,9 @@ padding-right: 180px;
   background: linear-gradient(333deg, rgb(34, 32, 32) 27%, rgba(29,27,20,1) 88%);
 }
 
-.footer:hover{
+.footer a {
+  color: #fff;
+}
+.footer a:hover{
   color: #C9030D;
 }
