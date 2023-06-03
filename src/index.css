@@ -165,19 +165,6 @@ padding-right: 180px;
   padding: 10px 20px 10px;
 }
 
-
-/* Footer  */
-
-.footer {
-  height: 5vh;
-  font-size: 1.8rem;
-  width: 100vw;
-  text-align: left;
-  padding-left: 100px;
-  color: white;
-  background: linear-gradient(333deg, rgb(34, 32, 32) 27%, rgba(29,27,20,1) 88%);
-}
-
 /* Trailer-Section */
 
 /* .Trailer-sec{
@@ -201,6 +188,71 @@ padding-right: 180px;
   height: 700px;
   width: 97%;
   margin-left: 35px;
+}
+
+/* About */
+
+.about-sec {
+  color: #fff;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 70px;
+}
+
+.about h1{
+  margin-bottom: 25px;
+}
+
+.about p {
+  line-height: 1.5;
+  width: 55%;
+}
+
+
+.about-game1 {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.social-icons a:hover{
+  color: rgb(196, 206, 215);
+}
+
+.social-icons a i{
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+  transition-delay: 0.1s;
+}
+
+.social-icons a i:hover{
+  transform: translateY(-5px);
+}
+
+/* Footer  */
+
+.footer {
+  height: 5vh;
+  font-size: 1.8rem;
+  width: 100vw;
+  text-align: left;
+  padding-left: 100px;
+  color: white;
+  background: linear-gradient(333deg, rgb(34, 32, 32) 27%, rgba(29,27,20,1) 88%);
 }
 
 .footer:hover{
