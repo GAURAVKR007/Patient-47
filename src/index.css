@@ -52,6 +52,11 @@ body {
   padding: 25px 20px 12px 20px;
   text-align: start;
   margin-right: -5px;
+  cursor: pointer;
+}
+
+.nav-bar h2:active{
+  transform: scale(0.97);
 }
 
 .nav-buy:hover {
@@ -104,14 +109,17 @@ body {
 
 .content a span{
   position: absolute;
-  background: red;
+  background: #292727a9;
   width: 0;
   height: 100%;
   left: 0;
   bottom: 0;
   z-index: -1;
   transition: all 0.55s ease-in;
-  
+}
+
+.content a:active {
+  transform: scale(0.97);
 }
 
 .content a:hover span{
