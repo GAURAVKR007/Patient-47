@@ -5,7 +5,7 @@ export default function About() {
         <div className="about-sec">
             <div className="about">
             <h1>Patient 47</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, illum iure ut cumque eveniet ipsum alias aliquid quasi dolores nobis sunt odio suscipit veniam expedita eum, labore laboriosam. Perspiciatis facilis delectus beatae deleniti sint explicabo vero pariatur enim totam tempore. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, fuga accusantium. Minima quisquam, quidem voluptatibus deserunt asperiores fuga autem hic veritatis deleniti quam. Alias, sint!
+            <p>In "Patient 47," you take on the role of Detective Durga Thakur  , a seasoned police officer known for her unwavering determination and sharp instincts. Haunted by a mysterious death that occurred within the hospital's grim walls, Durga is driven to unravel the dark secrets that shroud the institution and more...
             </p>
             <br />
             <br />

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Rubik+Wet+Paint&family=Trade+Winds&display=swap');
 
 *{
   box-sizing: border-box;
@@ -15,6 +17,7 @@ body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   background-color: black;
+  font-family: 'Trade Winds', cursive;
 }
 
 /* Navbar Section */
@@ -33,9 +36,12 @@ body {
 
 .nav-name {
   color: white;
-  font-family: 'Nosifer', cursive;
+  /* font-family: 'Nosifer', cursive; */
+  font-weight: bold;
+  font-size: 38px;
   margin-left: 50px;
 }
+
 
 .nav-name:hover {
   color: #C9030D;
@@ -49,7 +55,7 @@ body {
 .nav-buy {
   color: black;
   background-color: #C9030D;
-  padding: 25px 20px 12px 20px;
+  padding: 25px 20px 14px 20px;
   text-align: start;
   margin-right: -5px;
   cursor: pointer;
@@ -84,11 +90,12 @@ body {
   font-size: 160px;
   color: red;
   font-weight: 600;
+  font-family: 'Trade Winds', cursive;
   transition: all 0.5s ease-in-out;
 }
 
 .content h1:hover {
-  -webkit-text-stroke: 2px #fff;
+  -webkit-text-stroke: 2px red;
   color: transparent;
 }
 
@@ -109,7 +116,7 @@ body {
 
 .content a span{
   position: absolute;
-  background: #292727a9;
+  background: #ff0000;
   width: 0;
   height: 100%;
   left: 0;
@@ -318,7 +325,7 @@ padding-right: 180px;
   text-align: center;
   height: 700px;
   margin-top: 50px;
-  width: 97%;
+  width: 98%;
   margin-bottom: 200px;
   z-index: 2000;
 }
@@ -343,6 +350,7 @@ padding-right: 180px;
   display: inline-block;
   border-bottom: none;
   border-bottom: 2px solid red;
+  font-size: 44px;
   /* transition: all 0.2s; */
 }
 

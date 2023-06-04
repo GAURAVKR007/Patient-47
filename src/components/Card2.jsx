@@ -10,7 +10,7 @@ export default function Card2(props) {
                 </span>
             </div>
             <div className="text2">
-            <h2> <u> {props.heading} </u></h2>
+            <h2 style={{color: "red"}}> <u> {props.heading} </u></h2>
                 <p>{props.para1}</p>
                 <br />
                 <p>{props.para2}</p>
