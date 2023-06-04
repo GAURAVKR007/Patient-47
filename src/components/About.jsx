@@ -11,7 +11,7 @@ export default function About() {
             <br />
             <div className="about-game1">
                 <h4>Release Date : 23/09/2023</h4>
-                <h4>Genre : Horror/Action/Adventure</h4>
+                <h4>Genre : Horror / Action / Adventure</h4>
             </div>
             <div className="about-game1">
                 <h4>Developer : Impression Studio</h4>

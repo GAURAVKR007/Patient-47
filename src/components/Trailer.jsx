@@ -6,7 +6,8 @@ export default function Trailer() {
     <div className="Trailer-sec">
       <h1>Trailer : Patient 47</h1>
 
-      <div class="Trailer-video">
+      <div class="Trailer-video" >
+        <div  id="trailer" className="trailer-fix"></div>
       <ReactPlayer url="https://www.youtube.com/watch?v=R2Ebc_OFeug" 
       controls
       height={700}
